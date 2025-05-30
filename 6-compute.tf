@@ -22,6 +22,6 @@ resource "google_compute_instance" "sample_vm" {
         email  = google_service_account.vm_storage.email
         scopes = ["cloud-platform"]
     }
-  #metadata_startup_script = file("./startup.sh")
+  metadata_startup_script = file("./startup.sh")
 
 }
