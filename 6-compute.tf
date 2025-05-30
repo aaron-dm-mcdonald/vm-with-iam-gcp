@@ -1,4 +1,4 @@
-resource "google_compute_instance" "sample-vm" {
+resource "google_compute_instance" "sample_vm" {
   name         = "public-iowa-web-server"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
