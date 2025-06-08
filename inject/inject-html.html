@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instance Metadata</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome!</h1>
+
+    <!-- Embedded image served locally -->
+    <img src="cambodian-1.jpg" alt="Cambodian Image" style="max-width:100%;height:auto;" />
+
+    <!-- Injected metadata from startup script -->
+    <p><b>Hostname:</b> <!--HOSTNAME--></p>
+    <p><b>Private IP:</b> <!--LOCAL_IPV4--></p>
+    <p><b>Zone:</b> <!--ZONE--></p>
+    <p><b>Project ID:</b> <!--PROJECT_ID--></p>
+  </div>
+</body>
+</html>
